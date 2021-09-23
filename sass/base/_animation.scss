@@ -1,0 +1,36 @@
+//left side animation
+@keyframes moveInleft{
+	0%{
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+//right side 
+@keyframes moveInright{
+	0%{
+		opacity: 0;
+		transform: translateX(100px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+
+//bottom side
+@keyframes moveInbottom{
+	0%{
+		opacity:0;
+		transform: translateY(30px);
+	}
+	100%{
+		opacity:1;
+		transform: translate(0);
+	}
+}
